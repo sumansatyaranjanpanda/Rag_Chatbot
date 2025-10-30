@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🔍 AI Medical Chatbot — Sleek UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0f1724; /* deep navy */
+      --panel: rgba(255,255,255,0.03);
+      --muted: rgba(255,255,255,0.65);
+      --accent: linear-gradient(90deg,#06b6d4,#7c3aed);
+      --glass: rgba(255,255,255,0.03);
+      --user: #d1e7ff;
+      --assistant: #111827;
+      --success: #10b981;
+    }
+
+    html,body{height:100%;}
+    body{
+      margin:0; font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(124,58,237,0.12), transparent 8%),
+                  radial-gradient(900px 400px at 90% 90%, rgba(6,182,212,0.08), transparent 8%),
+                  var(--bg);
+      color:white; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      padding:2rem; box-sizing:border-box; display:flex; align-items:center; justify-content:center;
+    }
+
+    .app{
+      width:100%; max-width:900px; height:85vh; display:grid; grid-template-columns: 1fr 360px; gap:1.25rem;
+    }
+
+    /* Left: Chat area */
+    .panel{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.05); border-radius:14px; padding:1rem; display:flex; flex-direction:column;
+      box-shadow: 0 6px 30px rgba(2,6,23,0.5);
+    }
+
+    .header{
+      display:flex; align-items:center; gap:.75rem; padding-bottom:.5rem; border-bottom:1px solid rgba(255,255,255,0.03);
+    }
+    .logo{width:48px;height:48px;border-radius:10px; background:var(--accent); display:flex;align-items:center;justify-content:center; font-weight:700;}
+    .title{font-weight:700;font-size:1.05rem;}
+    .subtitle{font-size:.85rem;color:var(--muted);}
+
+    .controls{margin-left:auto; display:flex; gap:.5rem; align-items:center}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.05); padding:.4rem .6rem;border-radius:8px;cursor:pointer;font-weight:600}
+
+    .chat-window{flex:1; overflow:auto; padding:1rem; display:flex; flex-direction:column; gap:0.85rem;}
+
+    .message-row{display:flex; gap:.75rem; align-items:flex-end;}
+    .message-row.user{justify-content:flex-end;}
+    .avatar{width:36px;height:36px;border-radius:9px;flex:0 0 36px;display:grid;place-items:center;font-weight:700}
+    .avatar.user{background:linear-gradient(180deg,#60a5fa,#3b82f6); color:#032;}
+    .avatar.assistant{background:rgba(255,255,255,0.04); color:var(--muted);}
+
+    .bubble{
+      max-width:75%; padding:.7rem .9rem; border-radius:12px; line-height:1.35; box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+    }
+    .bubble.user{background: linear-gradient(90deg,#d1e7ff,#bfe6ff); color:#022; border-bottom-right-radius:6px;}
+    .bubble.assistant{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); color: #e6edf3; border-bottom-left-radius:6px; border:1px solid rgba(255,255,255,0.03)}
+
+    .meta{font-size:.72rem;color:var(--muted);margin-top:.35rem}
+
+    .composer{display:flex; gap:.5rem; align-items:flex-end; padding-top: .8rem; border-top:1px solid rgba(255,255,255,0.03);}
+    textarea{flex:1; min-height:48px; max-height:140px; resize:none; padding:.7rem .8rem; border-radius:10px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit; font-size:0.95rem}
+    .send{background: linear-gradient(90deg,#06b6d4,#7c3aed); border:none; color:white; padding:.65rem .9rem; border-radius:10px; font-weight:700; cursor:pointer}
+
+    .right-panel{display:flex; flex-direction:column; gap:.75rem}
+    .card{background:var(--panel); border-radius:12px; padding:1rem; border:1px solid rgba(255,255,255,0.03)}
+    .small{font-size:.85rem;color:var(--muted)}
+
+    .suggestions{display:flex; gap:.5rem; flex-wrap:wrap}
+    .chip{background:rgba(255,255,255,0.03); padding:.4rem .6rem;border-radius:999px; cursor:pointer; border:1px solid rgba(255,255,255,0.02)}
+
+    .clear{background:transparent;border:1px dashed rgba(255,255,255,0.04); padding:.45rem .6rem;border-radius:8px; color:var(--muted); cursor:pointer}
+
+    /* typing indicator */
+    .typing{display:inline-flex; gap:.25rem; align-items:center}
+    .dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,0.4); animation:blink 1s infinite}
+    .dot:nth-child(2){animation-delay:.15s}
+    .dot:nth-child(3){animation-delay:.3s}
+    @keyframes blink{0%{opacity:.15}50%{opacity:1}100%{opacity:.15}}
+
+    /* scroll */
+    .chat-window::-webkit-scrollbar{width:10px}
+    .chat-window::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.03);border-radius:10px}
+
+    /* responsiveness */
+    @media (max-width:880px){
+      .app{grid-template-columns:1fr; height:92vh}
+      .right-panel{order:2}
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <section class="panel" aria-labelledby="chat-title">
+      <div class="header">
+        <div class="logo">AI</div>
+        <div>
+          <div id="chat-title" class="title">AI Medical Chatbot</div>
+          <div class="subtitle">Fast, safe medical info — not a doctor. Use for guidance & triage.</div>
+        </div>
+
+        <div class="controls">
+          <button class="btn" id="darkToggle" aria-pressed="false">Dark</button>
+          <form method="get" action="/clear">
+            <button type="submit" class="btn">Clear</button>
+          </form>
+        </div>
+      </div>
+
+      {% if error %}
+        <p class="small" style="color: #ffb4b4">{{ error }}</p>
+      {% endif %}
+
+      <div class="chat-window" id="chatWindow" role="log" aria-live="polite">
+        {% for msg in messages %}
+          <div class="message-row {{ msg.role }}">
+            {% if msg.role == 'assistant' %}
+              <div class="avatar assistant">Dr</div>
+              <div>
+                <div class="bubble assistant">{{ msg.content | nl2br | safe }}</div>
+                <div class="meta">{{ msg.timestamp if msg.timestamp else '' }}</div>
+              </div>
+            {% else %}
+              <div>
+                <div class="bubble user">{{ msg.content | nl2br | safe }}</div>
+                <div class="meta" style="text-align:right">{{ msg.timestamp if msg.timestamp else '' }}</div>
+              </div>
+              <div class="avatar user">You</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+        <!-- typing indicator example (render conditionally in your backend when assistant is generating) -->
+        {% if typing %}
+          <div class="message-row assistant">
+            <div class="avatar assistant">Dr</div>
+            <div class="bubble assistant"><span class="typing"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span></div>
+          </div>
+        {% endif %}
+
+      </div>
+
+      <form class="composer" method="post" action="/" onsubmit="return handleSubmit(event)">
+        <label for="prompt" class="visually-hidden">Ask a medical question</label>
+        <textarea id="prompt" name="prompt" placeholder="Describe symptoms, ask about meds, or ask for next steps... (Shift+Enter = newline)" required></textarea>
+        <button type="submit" class="send">Send ➜</button>
+      </form>
+    </section>
+
+    <aside class="right-panel">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="font-weight:700">Quick prompts</div>
+          <div class="small">Tap to autofill</div>
+        </div>
+        <div class="suggestions" style="margin-top:.6rem">
+          <button type="button" class="chip" onclick="fillPrompt('I have a fever, sore throat and cough for 3 days — what should I do?')">Fever & cough</button>
+          <button type="button" class="chip" onclick="fillPrompt('Is it safe to take paracetamol with ibuprofen?')">Medication safety</button>
+          <button type="button" class="chip" onclick="fillPrompt('What are red flags for abdominal pain?')">Red flags</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700">Privacy & Safety</div>
+        <p class="small" style="margin-top:.5rem">This assistant gives information only. For emergencies call local services. Avoid sharing personal identifiers (name, phone, precise address).</p>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700">Tips</div>
+        <ul style="margin:.5rem 0 0 1rem; color:var(--muted)">
+          <li>Use clear timelines (e.g., "since 2 days").</li>
+          <li>Mention age, allergies & pregnancy if relevant.</li>
+          <li>Upload images via clinical workflow (if enabled by your backend).</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    // small UX helpers
+    const ta = document.getElementById('prompt');
+    function autosize(e){ e.style.height = '48px'; e.style.height = (e.scrollHeight) + 'px'; }
+    ta && ta.addEventListener('input', (ev)=>autosize(ev.target));
+
+    // allow Enter to send, Shift+Enter for newline
+    ta && ta.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' && !e.shiftKey){
+        e.preventDefault(); document.querySelector('.composer').requestSubmit();
+      }
+    });
+
+    function fillPrompt(text){
+      ta.value = text; autosize(ta); ta.focus();
+    }
+
+    function handleSubmit(e){
+      // minimal client-side guard; let server handle validation & safety
+      const v = ta.value.trim();
+      if(!v) { alert('Please type your question.'); return false; }
+      return true; // form submits normally
+    }
+
+    // dark/light toggle (keeps visual contrast but here we simply toggle a class)
+    const dt = document.getElementById('darkToggle');
+    dt && dt.addEventListener('click', ()=>{
+      const pressed = dt.getAttribute('aria-pressed') === 'true';
+      dt.setAttribute('aria-pressed', String(!pressed));
+      if(pressed){ document.body.style.filter = ''; dt.textContent = 'Dark'; }
+      else{ document.body.style.filter = 'brightness(1.03) contrast(1.02)'; dt.textContent = 'Bright'; }
+    });
+
+    // scroll chat to bottom on load
+    const win = document.getElementById('chatWindow');
+    if(win){ win.scrollTop = win.scrollHeight; }
+  </script>
+</body>
+</html>

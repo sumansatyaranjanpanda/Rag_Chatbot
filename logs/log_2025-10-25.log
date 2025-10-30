@@ -1,0 +1,1069 @@
+2025-10-25 00:02:34,244 - INFO - MAking the vectorstore....
+2025-10-25 00:02:34,245 - INFO - Loading files from data/
+2025-10-25 00:02:53,129 - INFO - Sucesfully fetched 759 documents
+2025-10-25 00:02:53,129 - INFO - Splitting 759 documents into chunks
+2025-10-25 00:02:53,319 - INFO - Generated 7080 text chunks
+2025-10-25 00:03:09,607 - INFO - Generating your new vectorstore
+2025-10-25 00:03:13,251 - INFO - Intializing our Huggingface embedding model
+2025-10-25 00:04:32,693 - INFO - Use pytorch device_name: cpu
+2025-10-25 00:04:32,693 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 00:04:56,682 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 00:08:09,327 - INFO - Loading faiss with AVX2 support.
+2025-10-25 00:08:10,275 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:28:24,289 - INFO - Loading vector store for context
+2025-10-25 07:28:24,290 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:28:35,895 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:28:35,895 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:28:46,609 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:28:46,609 - INFO - Loading existing vectorstore...
+2025-10-25 07:28:46,617 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:28:46,975 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:28:47,309 - ERROR - Failed to load vectorstore | Error: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:70: Error: 'f' failed: could not open vectorstore\db_faiss\index.faiss for reading: No such file or directory | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 18
+2025-10-25 07:28:47,309 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 34
+2025-10-25 07:38:35,214 - INFO - Loading vector store for context
+2025-10-25 07:38:35,215 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:38:42,338 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:38:42,338 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:38:51,026 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:38:51,027 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:38:51,028 - WARNING - No vectorstore index found. Expected index at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss\index.faiss
+2025-10-25 07:38:51,028 - INFO - Directory exists but index missing. Contents: []
+2025-10-25 07:38:51,028 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 34
+2025-10-25 07:40:19,255 - INFO - MAking the vectorstore....
+2025-10-25 07:40:19,255 - INFO - Loading files from data/
+2025-10-25 07:40:40,478 - INFO - Sucesfully fetched 759 documents
+2025-10-25 07:40:40,478 - INFO - Splitting 759 documents into chunks
+2025-10-25 07:40:40,828 - INFO - Generated 7080 text chunks
+2025-10-25 07:40:40,829 - INFO - Generating your new vectorstore
+2025-10-25 07:40:40,829 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:40:44,946 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:40:44,946 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:40:52,661 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:45:31,213 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:45:31,336 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:45:31,615 - INFO - Saving vectorstore to C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:45:31,685 - INFO - Vectorstore saved successfully.
+2025-10-25 07:45:31,691 - INFO - Vectorstore created sucesfully....
+2025-10-25 07:48:48,959 - INFO - Loading vector store for context
+2025-10-25 07:48:48,960 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:48:55,263 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:48:55,263 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:49:04,120 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:49:04,120 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:49:04,120 - INFO - Loading existing vectorstore...
+2025-10-25 07:49:04,120 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:49:04,168 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:49:04,635 - INFO - Vectorstore loaded successfully.
+2025-10-25 07:49:04,636 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 07:49:04,943 - ERROR - Failed to load an LLM from Groq | Error: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\llm.py | Line: 12
+2025-10-25 07:49:04,943 - ERROR - Failed to make a QA chain | Error: LLM not loaded | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 39
+2025-10-25 07:50:33,148 - INFO - Loading vector store for context
+2025-10-25 07:50:33,148 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:50:37,557 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:50:37,557 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:50:44,207 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:50:44,209 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:50:44,209 - INFO - Loading existing vectorstore...
+2025-10-25 07:50:44,213 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:50:44,250 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:50:44,524 - INFO - Vectorstore loaded successfully.
+2025-10-25 07:50:44,524 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 07:50:45,976 - INFO - LLM loaded successfully from Groq.
+2025-10-25 07:50:45,979 - INFO - Successfully created the QA chain
+2025-10-25 07:57:20,734 - INFO - Loading vector store for context
+2025-10-25 07:57:20,735 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:57:26,611 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:57:26,611 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:57:34,649 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:57:34,649 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:57:34,649 - INFO - Loading existing vectorstore...
+2025-10-25 07:57:34,649 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:57:34,767 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:57:35,206 - INFO - Vectorstore loaded successfully.
+2025-10-25 07:57:35,206 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 07:57:36,579 - INFO - LLM loaded successfully from Groq.
+2025-10-25 07:57:36,582 - INFO - Successfully created the QA chain
+2025-10-25 07:57:37,540 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 07:58:32,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 07:58:32,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 07:58:48,274 - INFO - 127.0.0.1 - - [25/Oct/2025 07:58:48] "GET / HTTP/1.1" 200 -
+2025-10-25 07:58:49,195 - INFO - 127.0.0.1 - - [25/Oct/2025 07:58:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-25 07:58:58,949 - INFO - Loading vector store for context
+2025-10-25 07:58:58,949 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:59:04,589 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:59:04,589 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:59:11,890 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:59:11,890 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:59:11,891 - INFO - Loading existing vectorstore...
+2025-10-25 07:59:11,895 - INFO - Loading faiss with AVX2 support.
+2025-10-25 07:59:12,211 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 07:59:12,316 - INFO - Vectorstore loaded successfully.
+2025-10-25 07:59:12,316 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 07:59:13,630 - INFO - LLM loaded successfully from Groq.
+2025-10-25 07:59:13,631 - INFO - Successfully created the QA chain
+2025-10-25 07:59:14,633 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 07:59:14,666 - INFO - 127.0.0.1 - - [25/Oct/2025 07:59:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 07:59:14,689 - INFO - 127.0.0.1 - - [25/Oct/2025 07:59:14] "GET / HTTP/1.1" 200 -
+2025-10-25 07:59:45,305 - INFO - Loading vector store for context
+2025-10-25 07:59:45,306 - INFO - Intializing our Huggingface embedding model
+2025-10-25 07:59:45,311 - INFO - Use pytorch device_name: cpu
+2025-10-25 07:59:45,312 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 07:59:52,422 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 07:59:52,422 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 07:59:52,422 - INFO - Loading existing vectorstore...
+2025-10-25 07:59:52,499 - INFO - Vectorstore loaded successfully.
+2025-10-25 07:59:52,500 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 07:59:53,407 - INFO - LLM loaded successfully from Groq.
+2025-10-25 07:59:53,408 - INFO - Successfully created the QA chain
+2025-10-25 07:59:54,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 07:59:54,931 - INFO - 127.0.0.1 - - [25/Oct/2025 07:59:54] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 07:59:54,952 - INFO - 127.0.0.1 - - [25/Oct/2025 07:59:54] "GET / HTTP/1.1" 200 -
+2025-10-25 08:00:26,920 - INFO - Loading vector store for context
+2025-10-25 08:00:26,921 - INFO - Intializing our Huggingface embedding model
+2025-10-25 08:00:26,924 - INFO - Use pytorch device_name: cpu
+2025-10-25 08:00:26,925 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 08:00:35,357 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 08:00:35,358 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 08:00:35,358 - INFO - Loading existing vectorstore...
+2025-10-25 08:00:35,835 - INFO - Vectorstore loaded successfully.
+2025-10-25 08:00:35,835 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 08:00:36,742 - INFO - LLM loaded successfully from Groq.
+2025-10-25 08:00:36,743 - INFO - Successfully created the QA chain
+2025-10-25 08:00:38,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 08:00:38,582 - INFO - 127.0.0.1 - - [25/Oct/2025 08:00:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 08:00:38,597 - INFO - 127.0.0.1 - - [25/Oct/2025 08:00:38] "GET / HTTP/1.1" 200 -
+2025-10-25 12:56:29,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 12:56:29,937 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 13:40:41,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 13:40:41,540 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 13:41:41,492 - INFO - 127.0.0.1 - - [25/Oct/2025 13:41:41] "GET / HTTP/1.1" 200 -
+2025-10-25 13:41:42,264 - INFO - 127.0.0.1 - - [25/Oct/2025 13:41:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-25 13:42:10,428 - INFO - Loading vector store for context
+2025-10-25 13:42:10,428 - INFO - Intializing our Huggingface embedding model
+2025-10-25 13:42:21,609 - INFO - Use pytorch device_name: cpu
+2025-10-25 13:42:21,609 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 13:42:30,601 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 13:42:30,601 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 13:42:30,603 - INFO - Loading existing vectorstore...
+2025-10-25 13:42:30,610 - INFO - Loading faiss with AVX2 support.
+2025-10-25 13:42:30,916 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 13:42:31,199 - INFO - Vectorstore loaded successfully.
+2025-10-25 13:42:31,199 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 13:42:32,060 - INFO - LLM loaded successfully from Groq.
+2025-10-25 13:42:32,061 - INFO - Successfully created the QA chain
+2025-10-25 13:42:35,047 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 13:42:35,069 - INFO - 127.0.0.1 - - [25/Oct/2025 13:42:35] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 13:42:35,080 - INFO - 127.0.0.1 - - [25/Oct/2025 13:42:35] "GET / HTTP/1.1" 200 -
+2025-10-25 13:42:59,579 - INFO - Loading vector store for context
+2025-10-25 13:42:59,580 - INFO - Intializing our Huggingface embedding model
+2025-10-25 13:42:59,581 - INFO - Use pytorch device_name: cpu
+2025-10-25 13:42:59,582 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 13:43:10,810 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 13:43:10,811 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 13:43:10,811 - INFO - Loading existing vectorstore...
+2025-10-25 13:43:11,017 - INFO - Vectorstore loaded successfully.
+2025-10-25 13:43:11,017 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 13:43:11,519 - INFO - LLM loaded successfully from Groq.
+2025-10-25 13:43:11,519 - INFO - Successfully created the QA chain
+2025-10-25 13:43:12,077 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 13:43:12,090 - INFO - 127.0.0.1 - - [25/Oct/2025 13:43:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 13:43:12,098 - INFO - 127.0.0.1 - - [25/Oct/2025 13:43:12] "GET / HTTP/1.1" 200 -
+2025-10-25 13:43:47,765 - INFO - Loading vector store for context
+2025-10-25 13:43:47,766 - INFO - Intializing our Huggingface embedding model
+2025-10-25 13:43:47,767 - INFO - Use pytorch device_name: cpu
+2025-10-25 13:43:47,768 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 13:43:57,331 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 13:43:57,333 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 13:43:57,333 - INFO - Loading existing vectorstore...
+2025-10-25 13:43:57,375 - INFO - Vectorstore loaded successfully.
+2025-10-25 13:43:57,376 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 13:43:57,873 - INFO - LLM loaded successfully from Groq.
+2025-10-25 13:43:57,874 - INFO - Successfully created the QA chain
+2025-10-25 13:43:58,961 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 13:43:58,976 - INFO - 127.0.0.1 - - [25/Oct/2025 13:43:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 13:43:58,987 - INFO - 127.0.0.1 - - [25/Oct/2025 13:43:58] "GET / HTTP/1.1" 200 -
+2025-10-25 13:44:16,376 - INFO - Loading vector store for context
+2025-10-25 13:44:16,376 - INFO - Intializing our Huggingface embedding model
+2025-10-25 13:44:16,378 - INFO - Use pytorch device_name: cpu
+2025-10-25 13:44:16,378 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 13:44:27,336 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 13:44:27,336 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 13:44:27,336 - INFO - Loading existing vectorstore...
+2025-10-25 13:44:27,379 - INFO - Vectorstore loaded successfully.
+2025-10-25 13:44:27,379 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 13:44:27,886 - INFO - LLM loaded successfully from Groq.
+2025-10-25 13:44:27,887 - INFO - Successfully created the QA chain
+2025-10-25 13:44:28,263 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 13:44:28,276 - INFO - 127.0.0.1 - - [25/Oct/2025 13:44:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 13:44:28,284 - INFO - 127.0.0.1 - - [25/Oct/2025 13:44:28] "GET / HTTP/1.1" 200 -
+2025-10-25 13:48:51,725 - INFO - 127.0.0.1 - - [25/Oct/2025 13:48:51] "GET / HTTP/1.1" 200 -
+2025-10-25 13:48:53,285 - INFO - 127.0.0.1 - - [25/Oct/2025 13:48:53] "GET / HTTP/1.1" 200 -
+2025-10-25 13:56:14,669 - INFO - 127.0.0.1 - - [25/Oct/2025 13:56:14] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 13:56:14,699 - INFO - 127.0.0.1 - - [25/Oct/2025 13:56:14] "GET / HTTP/1.1" 200 -
+2025-10-25 15:23:46,052 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 15:23:46,053 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 15:23:58,638 - INFO - 127.0.0.1 - - [25/Oct/2025 15:23:58] "GET / HTTP/1.1" 200 -
+2025-10-25 15:24:04,747 - INFO - Loading vector store for context
+2025-10-25 15:24:04,747 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:24:09,824 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:24:09,825 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:24:17,718 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:24:17,718 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:24:17,718 - INFO - Loading existing vectorstore...
+2025-10-25 15:24:17,722 - INFO - Loading faiss with AVX2 support.
+2025-10-25 15:24:17,788 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 15:24:17,892 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:24:17,892 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:24:18,727 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:24:18,727 - INFO - Successfully created the QA chain
+2025-10-25 15:24:20,951 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:24:20,977 - INFO - 127.0.0.1 - - [25/Oct/2025 15:24:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:24:20,989 - INFO - 127.0.0.1 - - [25/Oct/2025 15:24:20] "GET / HTTP/1.1" 200 -
+2025-10-25 15:24:45,967 - INFO - Loading vector store for context
+2025-10-25 15:24:45,967 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:24:45,970 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:24:45,970 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:24:54,236 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:24:54,236 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:24:54,236 - INFO - Loading existing vectorstore...
+2025-10-25 15:24:54,477 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:24:54,477 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:24:54,974 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:24:54,975 - INFO - Successfully created the QA chain
+2025-10-25 15:24:56,545 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:24:56,567 - INFO - 127.0.0.1 - - [25/Oct/2025 15:24:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:24:56,576 - INFO - 127.0.0.1 - - [25/Oct/2025 15:24:56] "GET / HTTP/1.1" 200 -
+2025-10-25 15:25:06,311 - INFO - Loading vector store for context
+2025-10-25 15:25:06,311 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:25:06,313 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:25:06,313 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:25:15,407 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:25:15,407 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:25:15,407 - INFO - Loading existing vectorstore...
+2025-10-25 15:25:15,453 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:25:15,453 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:25:15,954 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:25:15,954 - INFO - Successfully created the QA chain
+2025-10-25 15:25:16,940 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:25:16,952 - INFO - 127.0.0.1 - - [25/Oct/2025 15:25:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:25:16,960 - INFO - 127.0.0.1 - - [25/Oct/2025 15:25:16] "GET / HTTP/1.1" 200 -
+2025-10-25 15:25:30,934 - INFO - Loading vector store for context
+2025-10-25 15:25:30,935 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:25:30,936 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:25:30,937 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:25:39,062 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:25:39,063 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:25:39,063 - INFO - Loading existing vectorstore...
+2025-10-25 15:25:39,106 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:25:39,106 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:25:39,601 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:25:39,602 - INFO - Successfully created the QA chain
+2025-10-25 15:25:40,297 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:25:40,309 - INFO - 127.0.0.1 - - [25/Oct/2025 15:25:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:25:40,319 - INFO - 127.0.0.1 - - [25/Oct/2025 15:25:40] "GET / HTTP/1.1" 200 -
+2025-10-25 15:26:17,533 - INFO - Loading vector store for context
+2025-10-25 15:26:17,533 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:26:17,538 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:26:17,538 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:26:26,492 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:26:26,492 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:26:26,492 - INFO - Loading existing vectorstore...
+2025-10-25 15:26:26,549 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:26:26,549 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:26:27,054 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:26:27,054 - INFO - Successfully created the QA chain
+2025-10-25 15:26:29,658 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:26:29,665 - INFO - 127.0.0.1 - - [25/Oct/2025 15:26:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:26:29,683 - INFO - 127.0.0.1 - - [25/Oct/2025 15:26:29] "GET / HTTP/1.1" 200 -
+2025-10-25 15:27:57,294 - INFO - Loading vector store for context
+2025-10-25 15:27:57,294 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:27:57,295 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:27:57,295 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:28:04,547 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:28:04,548 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:28:04,548 - INFO - Loading existing vectorstore...
+2025-10-25 15:28:04,793 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:28:04,793 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:28:05,287 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:28:05,288 - INFO - Successfully created the QA chain
+2025-10-25 15:28:07,178 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:28:07,189 - INFO - 127.0.0.1 - - [25/Oct/2025 15:28:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:28:07,199 - INFO - 127.0.0.1 - - [25/Oct/2025 15:28:07] "GET / HTTP/1.1" 200 -
+2025-10-25 15:49:11,867 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 15:49:11,868 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 15:49:22,808 - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:22] "GET / HTTP/1.1" 200 -
+2025-10-25 15:49:31,646 - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:31] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 15:49:31,681 - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:31] "GET / HTTP/1.1" 200 -
+2025-10-25 15:49:41,853 - INFO - Loading vector store for context
+2025-10-25 15:49:41,856 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:49:41,940 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:49:41,940 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:49:52,678 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:49:52,685 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:49:52,686 - INFO - Loading existing vectorstore...
+2025-10-25 15:49:52,957 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:49:52,963 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:49:53,597 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:49:53,623 - INFO - Successfully created the QA chain
+2025-10-25 15:49:54,651 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:49:54,692 - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:54] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:49:54,712 - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:54] "GET / HTTP/1.1" 200 -
+2025-10-25 15:50:21,892 - INFO - Loading vector store for context
+2025-10-25 15:50:21,892 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:50:21,894 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:50:21,894 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:50:31,326 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:50:31,326 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:50:31,326 - INFO - Loading existing vectorstore...
+2025-10-25 15:50:31,386 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:50:31,386 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:50:31,874 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:50:31,890 - INFO - Successfully created the QA chain
+2025-10-25 15:50:32,721 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:50:32,736 - INFO - 127.0.0.1 - - [25/Oct/2025 15:50:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:50:32,741 - INFO - 127.0.0.1 - - [25/Oct/2025 15:50:32] "GET / HTTP/1.1" 200 -
+2025-10-25 15:50:50,229 - INFO - Loading vector store for context
+2025-10-25 15:50:50,229 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:50:50,231 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:50:50,231 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:50:58,425 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:50:58,425 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:50:58,425 - INFO - Loading existing vectorstore...
+2025-10-25 15:50:58,482 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:50:58,482 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:50:58,983 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:50:58,983 - INFO - Successfully created the QA chain
+2025-10-25 15:51:00,865 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:51:00,897 - INFO - 127.0.0.1 - - [25/Oct/2025 15:51:00] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:51:00,905 - INFO - 127.0.0.1 - - [25/Oct/2025 15:51:00] "GET / HTTP/1.1" 200 -
+2025-10-25 15:51:14,731 - INFO - Loading vector store for context
+2025-10-25 15:51:14,731 - INFO - Intializing our Huggingface embedding model
+2025-10-25 15:51:14,731 - INFO - Use pytorch device_name: cpu
+2025-10-25 15:51:14,731 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 15:51:21,463 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 15:51:21,464 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 15:51:21,464 - INFO - Loading existing vectorstore...
+2025-10-25 15:51:21,514 - INFO - Vectorstore loaded successfully.
+2025-10-25 15:51:21,514 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 15:51:22,009 - INFO - LLM loaded successfully from Groq.
+2025-10-25 15:51:22,009 - INFO - Successfully created the QA chain
+2025-10-25 15:51:22,588 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:51:22,599 - INFO - 127.0.0.1 - - [25/Oct/2025 15:51:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 15:51:22,611 - INFO - 127.0.0.1 - - [25/Oct/2025 15:51:22] "GET / HTTP/1.1" 200 -
+2025-10-25 16:00:00,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 16:00:00,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:00:32,239 - INFO - 127.0.0.1 - - [25/Oct/2025 16:00:32] "GET / HTTP/1.1" 200 -
+2025-10-25 16:00:40,817 - INFO - 127.0.0.1 - - [25/Oct/2025 16:00:40] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 16:00:40,832 - INFO - 127.0.0.1 - - [25/Oct/2025 16:00:40] "GET / HTTP/1.1" 200 -
+2025-10-25 16:00:49,784 - INFO - Loading vector store for context
+2025-10-25 16:00:49,784 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:00:49,804 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:00:49,804 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:00:58,804 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:00:58,804 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:00:58,804 - INFO - Loading existing vectorstore...
+2025-10-25 16:01:01,238 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:01:01,239 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:01:01,761 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:01:01,762 - INFO - Successfully created the QA chain
+2025-10-25 16:01:03,386 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:01:03,400 - INFO - 127.0.0.1 - - [25/Oct/2025 16:01:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 16:01:03,411 - INFO - 127.0.0.1 - - [25/Oct/2025 16:01:03] "GET / HTTP/1.1" 200 -
+2025-10-25 16:01:14,655 - INFO - Loading vector store for context
+2025-10-25 16:01:14,655 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:01:14,665 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:01:14,665 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:01:22,338 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:01:22,338 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:01:22,338 - INFO - Loading existing vectorstore...
+2025-10-25 16:01:22,426 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:01:22,426 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:01:22,976 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:01:22,976 - INFO - Successfully created the QA chain
+2025-10-25 16:01:25,079 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:01:25,103 - INFO - 127.0.0.1 - - [25/Oct/2025 16:01:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 16:01:25,114 - INFO - 127.0.0.1 - - [25/Oct/2025 16:01:25] "GET / HTTP/1.1" 200 -
+2025-10-25 16:02:28,903 - INFO - Loading vector store for context
+2025-10-25 16:02:32,091 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:03:14,625 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:03:14,625 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:03:30,896 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:03:34,908 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:03:36,923 - INFO - Loading existing vectorstore...
+2025-10-25 16:03:40,476 - INFO - Loading faiss with AVX2 support.
+2025-10-25 16:03:41,262 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 16:03:43,199 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:03:52,617 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:03:59,843 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:14:35,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 16:14:35,268 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:14:50,987 - INFO - 127.0.0.1 - - [25/Oct/2025 16:14:50] "GET / HTTP/1.1" 200 -
+2025-10-25 16:15:02,346 - INFO - 127.0.0.1 - - [25/Oct/2025 16:15:02] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 16:15:02,610 - INFO - 127.0.0.1 - - [25/Oct/2025 16:15:02] "GET / HTTP/1.1" 200 -
+2025-10-25 16:19:44,773 - INFO - Loading vector store for context
+2025-10-25 16:19:44,786 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:19:44,897 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:19:44,898 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:20:02,441 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:20:02,441 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:20:02,449 - INFO - Loading existing vectorstore...
+2025-10-25 16:20:02,673 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:20:02,673 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:20:04,145 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:20:04,185 - INFO - Successfully created the QA chain
+2025-10-25 16:20:05,402 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:20:05,577 - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 16:20:05,635 - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:05] "GET / HTTP/1.1" 200 -
+2025-10-25 16:20:15,767 - INFO - Loading vector store for context
+2025-10-25 16:20:15,767 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:20:15,774 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:20:15,775 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:20:23,033 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:20:23,034 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:20:23,035 - INFO - Loading existing vectorstore...
+2025-10-25 16:20:23,118 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:20:23,118 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:20:24,011 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:20:24,012 - INFO - Successfully created the QA chain
+2025-10-25 16:20:24,508 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:20:24,536 - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 16:20:24,558 - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:24] "GET / HTTP/1.1" 200 -
+2025-10-25 16:36:14,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 16:36:14,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:36:35,697 - INFO - 127.0.0.1 - - [25/Oct/2025 16:36:35] "GET / HTTP/1.1" 200 -
+2025-10-25 16:36:52,376 - INFO - Loading vector store for context
+2025-10-25 16:36:52,377 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:37:03,058 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:37:03,058 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:37:13,064 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:37:13,066 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:37:13,067 - INFO - Loading existing vectorstore...
+2025-10-25 16:37:13,076 - INFO - Loading faiss with AVX2 support.
+2025-10-25 16:37:13,187 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 16:37:13,323 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:37:13,323 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:37:14,796 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:37:14,801 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 16:37:14,811 - INFO - 127.0.0.1 - - [25/Oct/2025 16:37:14] "POST / HTTP/1.1" 200 -
+2025-10-25 16:42:31,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 16:42:31,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:42:40,211 - INFO - 127.0.0.1 - - [25/Oct/2025 16:42:40] "GET / HTTP/1.1" 200 -
+2025-10-25 16:42:47,420 - INFO - 127.0.0.1 - - [25/Oct/2025 16:42:47] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 16:42:47,446 - INFO - 127.0.0.1 - - [25/Oct/2025 16:42:47] "GET / HTTP/1.1" 200 -
+2025-10-25 16:42:53,195 - INFO - Loading vector store for context
+2025-10-25 16:42:53,196 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:42:53,261 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:42:53,261 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:43:03,114 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:43:03,116 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:43:03,116 - INFO - Loading existing vectorstore...
+2025-10-25 16:43:05,218 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:43:05,218 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:43:06,142 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:43:06,143 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 16:43:06,151 - INFO - 127.0.0.1 - - [25/Oct/2025 16:43:06] "POST / HTTP/1.1" 200 -
+2025-10-25 16:48:10,771 - INFO - Loading vector store for context
+2025-10-25 16:48:10,771 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:48:16,685 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:48:16,685 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:48:24,982 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:48:24,983 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:48:24,983 - INFO - Loading existing vectorstore...
+2025-10-25 16:48:24,990 - INFO - Loading faiss with AVX2 support.
+2025-10-25 16:48:25,483 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 16:48:25,820 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:48:25,821 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:48:27,222 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:48:27,222 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 16:48:27,231 - ERROR - Failed to create QA chain. Exiting.
+2025-10-25 16:50:37,220 - INFO - Loading vector store for context
+2025-10-25 16:50:37,221 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:50:42,668 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:50:42,668 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:50:51,968 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:50:51,970 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:50:51,970 - INFO - Loading existing vectorstore...
+2025-10-25 16:50:51,978 - INFO - Loading faiss with AVX2 support.
+2025-10-25 16:50:52,381 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 16:50:52,505 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:50:52,506 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:50:54,133 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:50:54,134 - INFO - Successfully created the conversational QA chain
+2025-10-25 16:50:55,895 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:50:56,433 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:53:51,476 - INFO - Loading vector store for context
+2025-10-25 16:53:51,477 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:53:57,006 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:53:57,006 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:54:05,825 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:54:05,826 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:54:05,828 - INFO - Loading existing vectorstore...
+2025-10-25 16:54:05,836 - INFO - Loading faiss with AVX2 support.
+2025-10-25 16:54:06,370 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 16:54:06,500 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:54:06,500 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:54:07,842 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:54:07,844 - INFO - Successfully created the conversational QA chain
+2025-10-25 16:54:08,752 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:54:09,458 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 16:58:08,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 16:58:08,966 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:58:30,827 - INFO - 127.0.0.1 - - [25/Oct/2025 16:58:30] "GET / HTTP/1.1" 200 -
+2025-10-25 16:58:42,918 - INFO - Loading vector store for context
+2025-10-25 16:58:42,923 - INFO - Intializing our Huggingface embedding model
+2025-10-25 16:58:43,049 - INFO - Use pytorch device_name: cpu
+2025-10-25 16:58:43,050 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 16:58:52,721 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 16:58:52,725 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 16:58:52,726 - INFO - Loading existing vectorstore...
+2025-10-25 16:58:52,934 - INFO - Vectorstore loaded successfully.
+2025-10-25 16:58:52,938 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 16:58:53,861 - INFO - LLM loaded successfully from Groq.
+2025-10-25 16:58:53,875 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 16:58:53,885 - INFO - 127.0.0.1 - - [25/Oct/2025 16:58:53] "POST / HTTP/1.1" 200 -
+2025-10-25 17:09:06,474 - INFO - Loading vector store for context
+2025-10-25 17:09:06,475 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:09:12,456 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:09:12,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:09:19,682 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:09:19,683 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:09:19,684 - INFO - Loading existing vectorstore...
+2025-10-25 17:09:19,689 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:09:20,011 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:09:20,272 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:09:20,272 - INFO - Loading LLM
+2025-10-25 17:09:20,272 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:09:21,536 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:09:21,536 - INFO - Creating ConversationalRetrievalChain
+2025-10-25 17:09:21,544 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:09:21,565 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 17:09:21,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 17:09:42,648 - INFO - 127.0.0.1 - - [25/Oct/2025 17:09:42] "GET / HTTP/1.1" 200 -
+2025-10-25 17:09:47,824 - INFO - 127.0.0.1 - - [25/Oct/2025 17:09:47] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 17:09:47,881 - INFO - 127.0.0.1 - - [25/Oct/2025 17:09:47] "GET / HTTP/1.1" 200 -
+2025-10-25 17:09:59,197 - INFO - Loading vector store for context
+2025-10-25 17:09:59,201 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:09:59,321 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:09:59,322 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:10:08,533 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:10:08,537 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:10:08,538 - INFO - Loading existing vectorstore...
+2025-10-25 17:10:08,733 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:10:08,736 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:10:09,719 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:10:09,728 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:10:09,741 - INFO - 127.0.0.1 - - [25/Oct/2025 17:10:09] "POST / HTTP/1.1" 200 -
+2025-10-25 17:16:25,305 - INFO - Loading vector store for context
+2025-10-25 17:16:25,305 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:16:32,253 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:16:32,253 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:16:40,501 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:16:40,504 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:16:40,504 - INFO - Loading existing vectorstore...
+2025-10-25 17:16:40,511 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:16:40,606 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:16:40,724 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:16:40,724 - INFO - Loading LLM
+2025-10-25 17:16:40,724 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:16:42,052 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:16:42,052 - INFO - Creating ConversationalRetrievalChain
+2025-10-25 17:16:42,052 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:16:42,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 17:16:42,086 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 17:16:58,082 - INFO - 127.0.0.1 - - [25/Oct/2025 17:16:58] "GET / HTTP/1.1" 200 -
+2025-10-25 17:17:04,013 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:04] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 17:17:04,038 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:04] "GET / HTTP/1.1" 200 -
+2025-10-25 17:17:12,804 - INFO - Loading vector store for context
+2025-10-25 17:17:12,804 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:12,837 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:12,837 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:17,194 - INFO - Loading vector store for context
+2025-10-25 17:17:17,194 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:17,197 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:17,199 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:20,640 - INFO - Loading vector store for context
+2025-10-25 17:17:20,640 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:20,640 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:20,640 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:21,438 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:21,440 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:21,441 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:21,580 - INFO - Loading vector store for context
+2025-10-25 17:17:21,583 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:21,636 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:21,640 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:21,667 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:21,669 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:22,625 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:22,639 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:22,646 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:22] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:24,600 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:24,600 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:24,616 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:27,171 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:27,171 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:28,013 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:28,013 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:28,013 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:28] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:30,763 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:30,764 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:30,765 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:30,857 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:30,858 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:31,154 - INFO - Loading vector store for context
+2025-10-25 17:17:31,155 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:31,158 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:31,158 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:31,720 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:31,720 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:31,726 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:31] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:32,194 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:32,195 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:32,196 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:32,289 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:32,290 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:33,166 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:33,167 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:33,174 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:33] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:40,081 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:40,082 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:40,083 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:40,164 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:40,165 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:40,564 - INFO - Loading vector store for context
+2025-10-25 17:17:40,564 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:40,568 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:40,568 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:40,790 - INFO - Loading vector store for context
+2025-10-25 17:17:40,790 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:40,793 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:40,793 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:17:41,046 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:41,047 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:41,062 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:41] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:45,235 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:45] "GET / HTTP/1.1" 200 -
+2025-10-25 17:17:47,037 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:17:47,037 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:17:47,037 - INFO - Loading existing vectorstore...
+2025-10-25 17:17:47,075 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:17:47,078 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:17:47,078 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:17:47,078 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:47] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:47,361 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:17:47,361 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:17:48,246 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:17:48,247 - ERROR - Failed to make a QA chain | Error: langchain.chains.question_answering.chain.load_qa_chain() got multiple values for keyword argument 'chain_type' | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 61
+2025-10-25 17:17:48,256 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:48] "POST / HTTP/1.1" 200 -
+2025-10-25 17:17:52,540 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:52] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 17:17:52,551 - INFO - 127.0.0.1 - - [25/Oct/2025 17:17:52] "GET / HTTP/1.1" 200 -
+2025-10-25 17:17:59,114 - INFO - Loading vector store for context
+2025-10-25 17:17:59,115 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:17:59,117 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:17:59,118 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:18:07,532 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:18:07,532 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:18:07,532 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:18:07,533 - INFO - 127.0.0.1 - - [25/Oct/2025 17:18:07] "POST / HTTP/1.1" 200 -
+2025-10-25 17:23:29,291 - INFO - Loading vector store for context
+2025-10-25 17:23:29,291 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:23:29,296 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:23:29,296 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:23:37,954 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:23:37,954 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:23:37,954 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:23:37,955 - INFO - 127.0.0.1 - - [25/Oct/2025 17:23:37] "POST / HTTP/1.1" 200 -
+2025-10-25 17:28:10,620 - INFO - Loading vector store for context
+2025-10-25 17:28:10,621 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:28:15,259 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:28:15,259 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:28:23,169 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:28:23,193 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:28:23,193 - INFO - Loading existing vectorstore...
+2025-10-25 17:28:23,267 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:28:55,255 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:28:55,329 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:28:55,329 - INFO - Loading LLM
+2025-10-25 17:28:55,329 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:28:56,182 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:28:56,182 - INFO - Creating ConversationalRetrievalChain
+2025-10-25 17:28:56,183 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:28:58,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:28:59,990 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:30:08,289 - INFO - Loading vector store for context
+2025-10-25 17:30:08,291 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:30:45,576 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:30:45,576 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:30:54,404 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:30:54,435 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:30:54,435 - INFO - Loading existing vectorstore...
+2025-10-25 17:30:54,637 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:30:55,410 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:30:55,479 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:30:55,479 - INFO - Loading LLM
+2025-10-25 17:30:55,479 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:30:56,368 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:30:56,368 - INFO - Creating ConversationalRetrievalChain
+2025-10-25 17:30:56,369 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:30:58,463 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:30:59,077 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:32:45,369 - INFO - Loading vector store for context
+2025-10-25 17:32:45,369 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:32:49,227 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:32:49,227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:32:56,947 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:32:56,948 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:32:56,948 - INFO - Loading existing vectorstore...
+2025-10-25 17:32:56,951 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:32:57,138 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:32:57,208 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:32:57,208 - INFO - Loading LLM
+2025-10-25 17:32:57,208 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:32:57,945 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:32:57,945 - INFO - Creating ConversationalRetrievalChain
+2025-10-25 17:32:57,946 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:32:59,190 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:32:59,717 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:40:12,118 - INFO - Loading vector store for context
+2025-10-25 17:40:12,119 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:40:16,350 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:40:16,350 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:40:23,808 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:40:23,809 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:40:23,809 - INFO - Loading existing vectorstore...
+2025-10-25 17:40:23,814 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:40:23,897 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:40:23,994 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:40:23,994 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:40:24,859 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:40:24,865 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:40:24,883 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 17:40:24,883 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 17:40:29,483 - INFO - 127.0.0.1 - - [25/Oct/2025 17:40:29] "GET / HTTP/1.1" 200 -
+2025-10-25 17:40:36,995 - INFO - Loading vector store for context
+2025-10-25 17:40:36,995 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:40:37,051 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:40:37,051 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:40:45,644 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:40:45,644 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:40:45,644 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:40:45,644 - INFO - 127.0.0.1 - - [25/Oct/2025 17:40:45] "POST / HTTP/1.1" 200 -
+2025-10-25 17:40:51,748 - INFO - 127.0.0.1 - - [25/Oct/2025 17:40:51] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 17:40:51,767 - INFO - 127.0.0.1 - - [25/Oct/2025 17:40:51] "GET / HTTP/1.1" 200 -
+2025-10-25 17:41:01,225 - INFO - Loading vector store for context
+2025-10-25 17:41:01,226 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:41:01,229 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:41:01,229 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:41:04,419 - INFO - Loading vector store for context
+2025-10-25 17:41:04,419 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:41:04,420 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:41:04,420 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:41:08,752 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:41:08,752 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:41:08,753 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:41:08,753 - INFO - 127.0.0.1 - - [25/Oct/2025 17:41:08] "POST / HTTP/1.1" 200 -
+2025-10-25 17:41:13,416 - ERROR - Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12
+2025-10-25 17:41:13,416 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device. | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\embeddings.py | Line: 12 | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 25
+2025-10-25 17:41:13,416 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 53
+2025-10-25 17:41:13,418 - INFO - 127.0.0.1 - - [25/Oct/2025 17:41:13] "POST / HTTP/1.1" 200 -
+2025-10-25 17:43:37,759 - INFO - Loading vector store for context
+2025-10-25 17:43:37,759 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:43:41,264 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:43:41,264 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:43:48,801 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:43:48,801 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:43:48,801 - INFO - Loading existing vectorstore...
+2025-10-25 17:43:48,805 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:43:48,990 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:44:08,404 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:44:08,436 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:44:09,771 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:44:09,772 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:44:10,828 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:44:11,423 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:45:43,338 - INFO - Loading vector store for context
+2025-10-25 17:45:43,339 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:45:47,598 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:45:47,599 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:45:47,605 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E7004140>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f545673a-11e2-4b9e-83db-50c5abf4d06c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:45:47,605 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-25 17:45:48,607 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8222E10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: aa9b90c2-c90e-4a5b-8992-33078ccbdceb)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:45:48,608 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-25 17:45:50,611 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8223170>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c75eaada-22a3-48d3-85e9-ffea1d989936)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:45:50,611 - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-25 17:45:54,613 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E6FF42C0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e5e3d034-a937-4991-814f-e112e1067636)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:45:54,613 - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-25 17:46:13,849 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8220B30>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 40a8e357-c207-4300-a224-fcfad06c2108)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:46:13,850 - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-25 17:46:21,852 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8223350>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6337d848-9e36-4223-ba66-c873f600fce6)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-25 17:46:21,857 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8223BC0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ec20a263-01c7-40ae-8a3f-0b227445ffe5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:46:21,857 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-25 17:46:22,865 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8223E90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 15540140-7923-4e1f-ad39-f6542ba9b29e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:46:22,866 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-25 17:46:24,869 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C200>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4170d48e-1d6d-4742-8829-76c9af075537)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:46:24,870 - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-25 17:46:33,077 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C530>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f14f0205-4ab4-4f26-90cb-3b103037f913)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:46:33,078 - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-25 17:46:52,308 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C860>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 25a9e4dc-4fa8-4266-88a0-338d49b1ac1a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:46:52,308 - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-25 17:47:25,414 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 41e1ae64-96f9-4d16-ab9a-47623b840735)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:25,415 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-25 17:47:36,563 - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A1E825C860>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host'))"), '(Request ID: 925eadc1-f071-463c-b88e-19bca5d98c83)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:36,564 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-25 17:47:38,565 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C290>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 71b1c8f1-5f56-4ec0-99d6-7ac7bd9d69c9)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:38,566 - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-25 17:47:42,568 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C170>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a0202144-80ea-47bc-a49e-0d05c5f8b639)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:42,568 - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-25 17:47:50,571 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825CE00>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 788a6b2d-d09a-4533-875b-b769a40528b5)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:50,571 - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-25 17:47:58,574 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825D160>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 32c4d360-e466-4641-b18c-8a86454bb316)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json
+2025-10-25 17:47:58,578 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825DD30>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a177b168-29de-416f-9a54-bf21b144813a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:47:58,578 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-25 17:47:59,580 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825E060>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 47fd21cc-cf78-4b55-94cc-d95fbfd951cf)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:47:59,584 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-25 17:48:01,586 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E41BEFC0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9ef0460a-bbf3-475a-8f99-ec45f33a1aef)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:48:01,587 - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-25 17:48:05,593 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8222D50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d0aa6bd6-ac5c-4c0c-9bb4-14fc8d36ef97)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:48:05,594 - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-25 17:48:13,595 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E8223B00>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: bfb4f60c-ebda-476b-94c2-53b7911d37d8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:48:13,597 - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-25 17:48:21,599 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E82235C0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 88d43324-c487-41d5-8f21-c2ce2169a988)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-10-25 17:48:21,602 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825D160>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4f0a7757-5c94-4056-b32e-7287ae6e0322)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2025-10-25 17:48:21,603 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-25 17:48:22,605 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825CCE0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d8d75af3-3abf-414e-9d18-726f3b07f3d6)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2025-10-25 17:48:22,605 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-25 17:48:24,608 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C260>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 872ae5ed-5a89-484d-b61f-666843486c42)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2025-10-25 17:48:24,608 - WARNING - Retrying in 4s [Retry 3/5].
+2025-10-25 17:48:28,610 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825C650>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b0652454-0470-46e1-a8e7-84da4833a73c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2025-10-25 17:48:28,611 - WARNING - Retrying in 8s [Retry 4/5].
+2025-10-25 17:48:36,618 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A1E825CBF0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b94a47d8-6b7b-47fe-9a78-a26a0584db65)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2025-10-25 17:48:36,618 - WARNING - Retrying in 8s [Retry 5/5].
+2025-10-25 17:49:06,414 - INFO - Loading vector store for context
+2025-10-25 17:49:06,415 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:49:11,551 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:49:11,551 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:49:17,365 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:49:17,365 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:49:17,365 - INFO - Loading existing vectorstore...
+2025-10-25 17:49:17,369 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:49:17,578 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:49:17,658 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:49:17,658 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:49:18,594 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:49:18,596 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:49:19,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:49:19,860 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:56:30,883 - INFO - Loading vector store for context
+2025-10-25 17:56:30,883 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:56:33,886 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:56:33,886 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:56:40,750 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:56:40,750 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:56:40,750 - INFO - Loading existing vectorstore...
+2025-10-25 17:56:40,750 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:56:40,936 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:56:40,989 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:56:40,989 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:56:41,691 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:56:41,692 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:56:42,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:56:43,213 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:57:23,204 - INFO - Loading vector store for context
+2025-10-25 17:57:23,204 - INFO - Intializing our Huggingface embedding model
+2025-10-25 17:57:26,255 - INFO - Use pytorch device_name: cpu
+2025-10-25 17:57:26,255 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 17:57:34,213 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 17:57:34,213 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 17:57:34,214 - INFO - Loading existing vectorstore...
+2025-10-25 17:57:34,216 - INFO - Loading faiss with AVX2 support.
+2025-10-25 17:57:34,238 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 17:57:34,294 - INFO - Vectorstore loaded successfully.
+2025-10-25 17:57:34,294 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 17:57:34,988 - INFO - LLM loaded successfully from Groq.
+2025-10-25 17:57:34,988 - INFO - Successfully created the conversational QA chain
+2025-10-25 17:57:35,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 17:57:35,005 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 17:57:47,026 - INFO - 127.0.0.1 - - [25/Oct/2025 17:57:47] "GET / HTTP/1.1" 200 -
+2025-10-25 17:57:47,671 - INFO - 127.0.0.1 - - [25/Oct/2025 17:57:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-25 17:57:54,482 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:57:54,500 - INFO - 127.0.0.1 - - [25/Oct/2025 17:57:54] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 17:57:54,506 - INFO - 127.0.0.1 - - [25/Oct/2025 17:57:54] "GET / HTTP/1.1" 200 -
+2025-10-25 17:58:11,993 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:58:12,394 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:58:12,394 - INFO - 127.0.0.1 - - [25/Oct/2025 17:58:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 17:58:12,417 - INFO - 127.0.0.1 - - [25/Oct/2025 17:58:12] "GET / HTTP/1.1" 200 -
+2025-10-25 17:59:06,788 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:59:07,072 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:59:07,095 - INFO - 127.0.0.1 - - [25/Oct/2025 17:59:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 17:59:07,103 - INFO - 127.0.0.1 - - [25/Oct/2025 17:59:07] "GET / HTTP/1.1" 200 -
+2025-10-25 17:59:34,012 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:59:34,320 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 17:59:34,329 - INFO - 127.0.0.1 - - [25/Oct/2025 17:59:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 17:59:34,337 - INFO - 127.0.0.1 - - [25/Oct/2025 17:59:34] "GET / HTTP/1.1" 200 -
+2025-10-25 18:06:12,143 - INFO - 127.0.0.1 - - [25/Oct/2025 18:06:12] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 18:06:12,154 - INFO - 127.0.0.1 - - [25/Oct/2025 18:06:12] "GET / HTTP/1.1" 200 -
+2025-10-25 18:06:36,506 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:06:36,519 - INFO - 127.0.0.1 - - [25/Oct/2025 18:06:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:06:36,526 - INFO - 127.0.0.1 - - [25/Oct/2025 18:06:36] "GET / HTTP/1.1" 200 -
+2025-10-25 18:23:23,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:23:23,782 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:23:23,793 - INFO - 127.0.0.1 - - [25/Oct/2025 18:23:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:23:23,804 - INFO - 127.0.0.1 - - [25/Oct/2025 18:23:23] "GET / HTTP/1.1" 200 -
+2025-10-25 18:25:13,857 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:25:14,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:25:14,157 - INFO - 127.0.0.1 - - [25/Oct/2025 18:25:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:25:14,166 - INFO - 127.0.0.1 - - [25/Oct/2025 18:25:14] "GET / HTTP/1.1" 200 -
+2025-10-25 18:25:34,951 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:25:35,566 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:25:35,576 - INFO - 127.0.0.1 - - [25/Oct/2025 18:25:35] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:25:35,584 - INFO - 127.0.0.1 - - [25/Oct/2025 18:25:35] "GET / HTTP/1.1" 200 -
+2025-10-25 18:26:13,964 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:26:14,476 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:26:14,485 - INFO - 127.0.0.1 - - [25/Oct/2025 18:26:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:26:14,493 - INFO - 127.0.0.1 - - [25/Oct/2025 18:26:14] "GET / HTTP/1.1" 200 -
+2025-10-25 18:56:19,109 - INFO - Loading vector store for context
+2025-10-25 18:56:19,110 - INFO - Intializing our Huggingface embedding model
+2025-10-25 18:56:27,789 - INFO - Use pytorch device_name: cpu
+2025-10-25 18:56:27,789 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 18:56:34,690 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 18:56:34,691 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 18:56:34,691 - INFO - Loading existing vectorstore...
+2025-10-25 18:56:34,696 - INFO - Loading faiss with AVX2 support.
+2025-10-25 18:56:34,755 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 18:56:34,894 - INFO - Vectorstore loaded successfully.
+2025-10-25 18:56:34,895 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 18:56:35,860 - INFO - LLM loaded successfully from Groq.
+2025-10-25 18:56:35,871 - INFO - Successfully created the conversational QA chain
+2025-10-25 18:56:35,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 18:56:35,887 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 18:56:51,874 - INFO - 127.0.0.1 - - [25/Oct/2025 18:56:51] "GET / HTTP/1.1" 200 -
+2025-10-25 18:57:03,244 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:57:03,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:57:03,674 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:57:03,681 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:03] "GET / HTTP/1.1" 200 -
+2025-10-25 18:57:17,616 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:17] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 18:57:17,637 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:17] "GET / HTTP/1.1" 200 -
+2025-10-25 18:57:26,079 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:57:26,099 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:57:26,122 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:26] "GET / HTTP/1.1" 200 -
+2025-10-25 18:57:42,699 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:57:43,088 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:57:43,097 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:57:43,105 - INFO - 127.0.0.1 - - [25/Oct/2025 18:57:43] "GET / HTTP/1.1" 200 -
+2025-10-25 18:58:05,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:58:05,809 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 18:58:05,830 - INFO - 127.0.0.1 - - [25/Oct/2025 18:58:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 18:58:05,839 - INFO - 127.0.0.1 - - [25/Oct/2025 18:58:05] "GET / HTTP/1.1" 200 -
+2025-10-25 20:41:44,892 - INFO - Loading vector store for context
+2025-10-25 20:41:44,892 - INFO - Intializing our Huggingface embedding model
+2025-10-25 20:41:56,745 - INFO - Use pytorch device_name: cpu
+2025-10-25 20:41:56,745 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 20:42:03,825 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 20:42:03,827 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 20:42:03,827 - INFO - Loading existing vectorstore...
+2025-10-25 20:42:03,831 - INFO - Loading faiss with AVX2 support.
+2025-10-25 20:42:04,074 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 20:42:04,183 - INFO - Vectorstore loaded successfully.
+2025-10-25 20:42:04,183 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 20:42:05,041 - INFO - LLM loaded successfully from Groq.
+2025-10-25 20:42:05,047 - INFO - Successfully created the conversational QA chain
+2025-10-25 20:42:05,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 20:42:05,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 20:42:54,312 - INFO - 127.0.0.1 - - [25/Oct/2025 20:42:54] "GET / HTTP/1.1" 200 -
+2025-10-25 20:43:07,178 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:07] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 20:43:07,198 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:07] "GET / HTTP/1.1" 200 -
+2025-10-25 20:43:31,185 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 20:43:31,207 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 20:43:31,211 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:31] "GET / HTTP/1.1" 200 -
+2025-10-25 20:43:51,529 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 20:43:51,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 20:43:51,952 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:51] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 20:43:51,960 - INFO - 127.0.0.1 - - [25/Oct/2025 20:43:51] "GET / HTTP/1.1" 200 -
+2025-10-25 20:49:37,936 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 20:49:38,346 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 20:49:38,356 - INFO - 127.0.0.1 - - [25/Oct/2025 20:49:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 20:49:38,367 - INFO - 127.0.0.1 - - [25/Oct/2025 20:49:38] "GET / HTTP/1.1" 200 -
+2025-10-25 21:04:49,676 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:04:50,186 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:04:50,197 - INFO - 127.0.0.1 - - [25/Oct/2025 21:04:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 21:04:50,205 - INFO - 127.0.0.1 - - [25/Oct/2025 21:04:50] "GET / HTTP/1.1" 200 -
+2025-10-25 21:48:10,497 - INFO - Loading vector store for context
+2025-10-25 21:48:10,498 - INFO - Intializing our Huggingface embedding model
+2025-10-25 21:48:15,057 - INFO - Use pytorch device_name: cpu
+2025-10-25 21:48:15,058 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-25 21:48:22,434 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-25 21:48:22,435 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-25 21:48:22,435 - INFO - Loading existing vectorstore...
+2025-10-25 21:48:22,439 - INFO - Loading faiss with AVX2 support.
+2025-10-25 21:48:22,504 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-25 21:48:22,579 - INFO - Vectorstore loaded successfully.
+2025-10-25 21:48:22,579 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-25 21:48:23,408 - INFO - LLM loaded successfully from Groq.
+2025-10-25 21:48:23,410 - INFO - Successfully created the conversational QA chain
+2025-10-25 21:48:23,426 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.144.213:5000
+2025-10-25 21:48:23,426 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 21:48:36,914 - INFO - 127.0.0.1 - - [25/Oct/2025 21:48:36] "GET / HTTP/1.1" 200 -
+2025-10-25 21:48:46,505 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:48:46,521 - INFO - 127.0.0.1 - - [25/Oct/2025 21:48:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 21:48:46,532 - INFO - 127.0.0.1 - - [25/Oct/2025 21:48:46] "GET / HTTP/1.1" 200 -
+2025-10-25 21:48:58,878 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:48:59,279 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:48:59,279 - INFO - 127.0.0.1 - - [25/Oct/2025 21:48:59] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 21:48:59,302 - INFO - 127.0.0.1 - - [25/Oct/2025 21:48:59] "GET / HTTP/1.1" 200 -
+2025-10-25 21:49:23,863 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:49:24,169 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 21:49:24,174 - INFO - 127.0.0.1 - - [25/Oct/2025 21:49:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-10-25 21:49:24,182 - INFO - 127.0.0.1 - - [25/Oct/2025 21:49:24] "GET / HTTP/1.1" 200 -
+2025-10-25 21:56:47,133 - INFO - 127.0.0.1 - - [25/Oct/2025 21:56:47] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-10-25 21:56:47,148 - INFO - 127.0.0.1 - - [25/Oct/2025 21:56:47] "GET / HTTP/1.1" 200 -
+2025-10-25 21:57:56,008 - INFO - 127.0.0.1 - - [25/Oct/2025 21:57:56] "GET /health HTTP/1.1" 200 -

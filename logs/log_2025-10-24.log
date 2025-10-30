@@ -1,0 +1,115 @@
+2025-10-24 21:49:38,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.213:5000
+2025-10-24 21:49:38,633 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-24 21:50:21,080 - INFO - 127.0.0.1 - - [24/Oct/2025 21:50:21] "GET / HTTP/1.1" 200 -
+2025-10-24 21:50:23,442 - INFO - 127.0.0.1 - - [24/Oct/2025 21:50:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-24 21:51:02,149 - INFO - Loading vector store for context
+2025-10-24 21:51:02,149 - INFO - Initializing our Huggingface embding model
+2025-10-24 21:51:12,324 - INFO - Use pytorch device_name: cpu
+2025-10-24 21:51:12,324 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 21:51:22,549 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 21:51:22,549 - WARNING - No vectore store found..
+2025-10-24 21:51:22,549 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 34
+2025-10-24 21:51:22,550 - INFO - 127.0.0.1 - - [24/Oct/2025 21:51:22] "POST / HTTP/1.1" 200 -
+2025-10-24 21:57:12,542 - INFO - Loading vector store for context
+2025-10-24 21:57:12,542 - INFO - Initializing our Huggingface embding model
+2025-10-24 21:57:16,494 - INFO - Use pytorch device_name: cpu
+2025-10-24 21:57:16,494 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 21:57:26,902 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 21:57:26,902 - WARNING - No vectore store found..
+2025-10-24 21:57:26,902 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 34
+2025-10-24 21:58:09,864 - INFO - Loading vector store for context
+2025-10-24 21:58:09,864 - INFO - Initializing our Huggingface embding model
+2025-10-24 21:58:13,131 - INFO - Use pytorch device_name: cpu
+2025-10-24 21:58:13,131 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 21:58:20,909 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 21:58:20,910 - WARNING - No vectore store found..
+2025-10-24 21:58:20,910 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 34
+2025-10-24 22:01:28,758 - INFO - Loading vector store for context
+2025-10-24 22:01:28,759 - INFO - Initializing our Huggingface embding model
+2025-10-24 22:01:32,443 - INFO - Use pytorch device_name: cpu
+2025-10-24 22:01:32,443 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 22:01:42,378 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 22:01:42,378 - WARNING - No vectore store found..
+2025-10-24 22:01:42,378 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 22:30:25,843 - INFO - Loading vector store for context
+2025-10-24 22:30:25,843 - INFO - Initializing our Huggingface embding model
+2025-10-24 22:30:29,645 - INFO - Use pytorch device_name: cpu
+2025-10-24 22:30:29,645 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 22:30:38,863 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 22:30:38,863 - INFO - Loading existing vectorstore...
+2025-10-24 22:30:38,874 - INFO - Loading faiss with AVX2 support.
+2025-10-24 22:30:39,651 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-24 22:30:39,805 - ERROR - Failed to load vectorstore | Error: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:70: Error: 'f' failed: could not open vectorestore\db_faiss\index.faiss for reading: No such file or directory | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 21
+2025-10-24 22:30:39,805 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 22:32:36,020 - INFO - Loading vector store for context
+2025-10-24 22:32:36,020 - INFO - Initializing our Huggingface embding model
+2025-10-24 22:32:39,164 - INFO - Use pytorch device_name: cpu
+2025-10-24 22:32:39,164 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 22:33:59,740 - INFO - Loading vector store for context
+2025-10-24 22:33:59,740 - INFO - Initializing our Huggingface embding model
+2025-10-24 22:34:02,816 - INFO - Use pytorch device_name: cpu
+2025-10-24 22:34:02,816 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 22:34:13,713 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 7589b932-d03b-4ced-ba25-16d164b6b3d9)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-24 22:34:13,713 - WARNING - Retrying in 1s [Retry 1/5].
+2025-10-24 22:34:25,521 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: a6c7f3f5-b35b-4556-a7a6-b3e04be98e30)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-10-24 22:34:25,521 - WARNING - Retrying in 2s [Retry 2/5].
+2025-10-24 22:34:59,762 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 22:34:59,762 - INFO - Loading existing vectorstore...
+2025-10-24 22:34:59,766 - INFO - Loading faiss with AVX2 support.
+2025-10-24 22:34:59,921 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-24 22:34:59,928 - ERROR - Failed to load vectorstore | Error: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:70: Error: 'f' failed: could not open vectorestore\db_faiss\index.faiss for reading: No such file or directory | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 21
+2025-10-24 22:34:59,928 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 22:44:05,549 - INFO - Loading vector store for context
+2025-10-24 22:44:05,550 - INFO - Initializing our Huggingface embding model
+2025-10-24 22:44:09,801 - INFO - Use pytorch device_name: cpu
+2025-10-24 22:44:09,801 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 22:44:24,133 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 22:44:24,133 - WARNING - No vector store found. Please create one first.
+2025-10-24 22:44:24,133 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 23:36:45,914 - INFO - Loading vector store for context
+2025-10-24 23:36:45,914 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:36:50,608 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:36:50,608 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:36:59,892 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:36:59,893 - WARNING - No vectore store found..
+2025-10-24 23:36:59,893 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 23:37:30,923 - INFO - Loading vector store for context
+2025-10-24 23:37:30,923 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:37:34,065 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:37:34,066 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:37:44,507 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:37:44,507 - WARNING - No vectore store found..
+2025-10-24 23:37:44,507 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 23:41:34,768 - INFO - Loading vector store for context
+2025-10-24 23:41:34,768 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:41:39,005 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:41:39,005 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:41:49,602 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:41:49,603 - INFO - Loading existing vectorstore...
+2025-10-24 23:41:49,610 - INFO - Loading faiss with AVX2 support.
+2025-10-24 23:41:49,695 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-24 23:41:49,837 - ERROR - Failed to load vectorstore | Error: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:70: Error: 'f' failed: could not open vectorstore\db_faiss\index.faiss for reading: No such file or directory | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\vector_store.py | Line: 18
+2025-10-24 23:41:49,838 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\app\components\retriever.py | Line: 32
+2025-10-24 23:43:38,342 - INFO - Loading vector store for context
+2025-10-24 23:44:00,677 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:44:32,280 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:44:32,281 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:45:03,845 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:45:17,805 - INFO - Loading existing vectorstore...
+2025-10-24 23:45:27,969 - INFO - Loading faiss with AVX2 support.
+2025-10-24 23:45:28,695 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-24 23:49:09,440 - INFO - Loading vector store for context
+2025-10-24 23:49:13,853 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:49:38,863 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:49:38,863 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:49:56,712 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:50:25,583 - WARNING - No vector store found..
+2025-10-24 23:52:52,282 - INFO - Loading vector store for context
+2025-10-24 23:52:56,139 - INFO - Initializing our Huggingface embding model
+2025-10-24 23:53:19,960 - INFO - Use pytorch device_name: cpu
+2025-10-24 23:53:19,961 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-24 23:53:34,078 - INFO - Hugging face embeding model load succcesfully
+2025-10-24 23:53:48,292 - WARNING - No vector store found..

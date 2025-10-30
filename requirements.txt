@@ -1,0 +1,16 @@
+langchain
+langchain_community
+langchain_huggingface
+langchain_groq
+faiss-cpu
+pypdf
+huggingface_hub
+python-dotenv
+sentence-transformers
+psycopg2-binary
+fastapi
+uvicorn[standard]
+python-multipart
+jinja2
+sqlalchemy
+gunicorn
