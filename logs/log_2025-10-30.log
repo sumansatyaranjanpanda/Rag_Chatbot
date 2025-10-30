@@ -107,3 +107,42 @@
 2025-10-30 17:43:52,583 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-10-30 17:44:03,896 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-10-30 17:44:04,181 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:19:41,059 - INFO - Loading vector store for context
+2025-10-30 18:19:41,070 - INFO - Intializing our Huggingface embedding model
+2025-10-30 18:19:46,132 - INFO - Use pytorch device_name: cpu
+2025-10-30 18:19:46,132 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-30 18:19:54,424 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-30 18:19:54,424 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-30 18:19:54,425 - INFO - Loading existing vectorstore...
+2025-10-30 18:19:54,429 - INFO - Loading faiss with AVX2 support.
+2025-10-30 18:19:54,520 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-30 18:19:54,607 - INFO - Vectorstore loaded successfully.
+2025-10-30 18:19:54,607 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-30 18:19:55,529 - INFO - LLM loaded successfully from Groq.
+2025-10-30 18:19:55,530 - INFO - Successfully created the conversational QA chain
+2025-10-30 18:22:15,269 - INFO - Loading vector store for context
+2025-10-30 18:22:15,269 - INFO - Intializing our Huggingface embedding model
+2025-10-30 18:22:18,754 - INFO - Use pytorch device_name: cpu
+2025-10-30 18:22:18,754 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-30 18:22:25,426 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-30 18:22:25,427 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-30 18:22:25,427 - INFO - Loading existing vectorstore...
+2025-10-30 18:22:25,431 - INFO - Loading faiss with AVX2 support.
+2025-10-30 18:22:25,446 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-30 18:22:25,527 - INFO - Vectorstore loaded successfully.
+2025-10-30 18:22:25,527 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-30 18:22:26,252 - INFO - LLM loaded successfully from Groq.
+2025-10-30 18:22:26,252 - INFO - Successfully created the conversational QA chain
+2025-10-30 18:25:37,489 - INFO - Loading vector store for context
+2025-10-30 18:25:37,489 - INFO - Intializing our Huggingface embedding model
+2025-10-30 18:25:40,660 - INFO - Use pytorch device_name: cpu
+2025-10-30 18:25:40,660 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-30 18:25:47,469 - INFO - Huggingface embedding model loaded sucesfully....
+2025-10-30 18:25:47,470 - INFO - Checking vectorstore at: C:\Users\rajap\OneDrive\Desktop\Rag_chatbot\vectorstore\db_faiss
+2025-10-30 18:25:47,470 - INFO - Loading existing vectorstore...
+2025-10-30 18:25:47,473 - INFO - Loading faiss with AVX2 support.
+2025-10-30 18:25:47,495 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-30 18:25:47,552 - INFO - Vectorstore loaded successfully.
+2025-10-30 18:25:47,552 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-10-30 18:25:48,233 - INFO - LLM loaded successfully from Groq.
+2025-10-30 18:25:48,234 - INFO - Successfully created the conversational QA chain
