@@ -11,3 +11,7 @@ venv/
 # IDE junk
 .vscode/
 .idea/
+
+
+
+RAG_Medcal_Chatbot.egg-info/
